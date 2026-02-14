@@ -30,8 +30,16 @@ Type: Binary Classification
 The dataset consists of features computed from digitized images of breast mass cell nuclei. The task is to classify whether a tumor is malignant or benign.
 
 ---
+## 3. Data Preprocessing
 
-## 3. Machine Learning Models Implemented
+- Performed train-test split (80% training, 20% testing)
+- Applied StandardScaler for feature normalization
+- Saved trained scaler for consistent transformation during deployment
+- Ensured same preprocessing pipeline used in Streamlit application
+
+--
+
+## 4. Machine Learning Models Implemented
 
 The following six models were implemented on the same dataset:
 
@@ -46,7 +54,7 @@ All models were trained using an 80-20 train-test split and evaluated using iden
 
 ---
 
-## 4. Evaluation Metrics
+## 5. Evaluation Metrics
 
 Each model was evaluated using the following metrics:
 
@@ -59,8 +67,7 @@ Each model was evaluated using the following metrics:
 
 ---
 
-## 5. Model Comparison Table
-## 5. Model Comparison Table
+## 6. Model Comparison Table
 
 | ML Model | Accuracy | AUC | Precision | Recall | F1 Score | MCC |
 |-----------|----------|------|-----------|--------|----------|------|
@@ -74,7 +81,7 @@ Each model was evaluated using the following metrics:
 
 ---
 
-## 6. Observations on Model Performance
+## 7. Observations on Model Performance
 
 | ML Model | Observation |
 |------------|-------------|
@@ -89,8 +96,7 @@ Overall, ensemble methods (Random Forest and XGBoost) showed better stability an
 
 ---
 
-## 7. Project Structure
-## 7. Project Structure
+## 8. Project Structure
 
 ```
 ml-assignemt-2/
@@ -117,18 +123,21 @@ ml-assignemt-2/
 
 ---
 
-## 8. How to Run the Application Locally
+## 9. How to Run the Application Locally
 ### Step 1: Install Dependencies
 pip install -r requirements.txt
 
 ### Step 2: Run Streamlit Application
+```
+streamlit run app.py
+```
 The application will open in your browser at:
 
 http://localhost:8501
 
 ---
 
-## 9. Streamlit App Features
+## 10. Streamlit App Features
 
 - Upload test dataset (CSV format)
 - Model selection dropdown
@@ -138,7 +147,7 @@ http://localhost:8501
 
 ---
 
-## 10. Deployment Details
+## 11. Deployment Details
 
 GitHub Repository Link:
 (Insert your GitHub repository link here)
@@ -148,26 +157,16 @@ Live Streamlit App Link:
 
 ---
 
-## 11. Conclusion
+## 12. Conclusion
 
 This project successfully compares multiple classification algorithms on a real-world dataset and demonstrates the complete machine learning lifecycle including model development, evaluation, and deployment.
 
 Ensemble models generally showed superior performance, highlighting the power of combining multiple weak learners into a strong predictive model.
 
-🚀 Next Step
 
-Now do this:
+## 13. Author
 
-Replace XX with your actual results.
-
-Add GitHub link.
-
-Add deployed Streamlit link.
-
-If you paste your results table here, I can:
-
-Fill the metrics properly
-
-Improve observations based on your actual performance
-
-Make it even more polished for higher marks 🚀
+Name: Vivekanand Shanbhag  
+Course: M.Tech (AI/ML)
+Bits ID: 2025aa05717
+Assignment: Machine Learning – Assignment 2  
