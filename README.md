@@ -90,26 +90,30 @@ Overall, ensemble methods (Random Forest and XGBoost) showed better stability an
 ---
 
 ## 7. Project Structure
-ml-classification-app/
+## 7. Project Structure
+
+```
+ml-assignemt-2/
 │
 ├── notebooks/
-│ └── training.ipynb
+│   └── training.ipynb
 │
 ├── models/
-│ ├── Logistic Regression.pkl
-│ ├── Decision Tree.pkl
-│ ├── KNN.pkl
-│ ├── Naive Bayes.pkl
-│ ├── Random Forest.pkl
-│ ├── XGBoost.pkl
-│ └── scaler.pkl
+│   ├── Logistic Regression.pkl
+│   ├── Decision Tree.pkl
+│   ├── KNN.pkl
+│   ├── Naive Bayes.pkl
+│   ├── Random Forest.pkl
+│   ├── XGBoost.pkl
+│   └── scaler.pkl
 │
 ├── test_data/
-│ └── sample_test_data.csv
+│   └── sample_test_data.csv
 │
 ├── app.py
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
