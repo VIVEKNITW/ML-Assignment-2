@@ -153,7 +153,7 @@ GitHub Repository Link:
 [Github](https://github.com/VIVEKNITW/ML-Assignment-2)
 
 Live Streamlit App Link:
-(Insert your deployed Streamlit Community Cloud link here)
+[Stremlit](https://6y53szfocxvuwbvu3tmmms.streamlit.app)
 
 ---
 
