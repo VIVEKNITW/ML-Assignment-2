@@ -150,7 +150,7 @@ http://localhost:8501
 ## 11. Deployment Details
 
 GitHub Repository Link:
-(Insert your GitHub repository link here)
+[text](https://github.com/VIVEKNITW/ML-Assignment-2)
 
 Live Streamlit App Link:
 (Insert your deployed Streamlit Community Cloud link here)
